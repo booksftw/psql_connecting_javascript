@@ -7,10 +7,10 @@ module.exports = {
   development: {
     client: 'pg',
     connection: {
-      host : 'settings.hostname',
-      user : 'settings.user',
-      password : 'settings.password',
-      database : 'settings.database',
+      host : settings.hostname,
+      user : settings.user,
+      password : settings.password,
+      database : settings.database,
       charset: 'utf8'
   },
 
@@ -46,4 +46,6 @@ module.exports = {
     }
   }
 
-};
+  }
+}
+

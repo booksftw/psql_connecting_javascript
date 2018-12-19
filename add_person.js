@@ -10,6 +10,8 @@ var knex = require('knex')({
     }
   });
 
+  knex.
+
 const userFirstNameInput = process.argv[2];
 const userLastNameInput  = process.argv[3];
 const userFamousBday     = '1992-11-26';
