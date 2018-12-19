@@ -15,7 +15,6 @@ const userLastNameInput  = process.argv[3];
 const userFamousBday     = '1992-11-26';
 
 function createNewPerson(firstName, lastName, birthdate) {
-    console.log(firstName, lastName, birthdate, '<<<')
     knex
     .insert(
     [
